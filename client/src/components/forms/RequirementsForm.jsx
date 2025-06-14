@@ -1,4 +1,3 @@
-// components/RequirementForm.jsx
 import React, { useState } from 'react';
 import {
   Square,
@@ -38,7 +37,7 @@ const RequirementForm = () => {
   const [isSuccess, setIsSuccess] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [isDisabled, setIsDisabled] = useState(false);
-  const [generatedImages, setGeneratedImages] = useState([]); // ✅ NEW
+  const [generatedImages, setGeneratedImages] = useState([]); 
 
   const handleColorClick = (hex) => {
     if (selectedColors.includes(hex)) return;
